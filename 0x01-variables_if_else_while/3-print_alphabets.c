@@ -14,7 +14,6 @@ for (a = 97; a <= 122; a++)
 {
 	putchar(a);
 }
-printf("\n");
 for (a = 65; a <= 90; a++)
 	putchar(a);
 return (0);
