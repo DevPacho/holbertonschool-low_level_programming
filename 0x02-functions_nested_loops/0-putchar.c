@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* main - función main
-* Return: 0  
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	_putchar('_');
