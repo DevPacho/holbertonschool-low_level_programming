@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks for lowercase character
- * @c: parámetro c
+ * @c: parameter c
  * Return: Always 0 (Success)
  */
 
