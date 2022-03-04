@@ -2,7 +2,7 @@
 
 /**
  * main - main function with arguments argc and *argv -
- * program that prints its name, followed by a new line.
+ * program that prints all arguments it receives.
  * @argc: number of words (arguments)
  * entered in the line where the program is called.
  * @argv: pointers to each string formed
