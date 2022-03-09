@@ -49,3 +49,73 @@
     <h2>More Info</h2>
     <p>You do not have to learn about&nbsp;<code>calloc</code> and&nbsp;<code>realloc</code>.</p>
 </div>
+<br>
+<h1>Tasks</h1>
+
+<div>
+    <h3>0. Float like a butterfly, sting like a bee</h3>
+    <div>mandatory</div>
+</div>
+<div>
+    <p>Write a function that creates an array of chars, and initializes it with a specific char.</p>
+    <ul>
+        <li>Prototype:&nbsp;<code>char *create_array(unsigned int size, char c);</code></li>
+        <li>Returns&nbsp;<code>NULL</code> if size =&nbsp;<code>0</code></li>
+        <li>Returns a pointer to the array, or&nbsp;<code>NULL</code> if it fails</li>
+    </ul>
+</div>
+<div>
+    <br>
+    <h3>1. The woman who has no imagination has no wings</h3>
+    <div>mandatory</div>
+</div>
+<div>
+    <p>Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.</p>
+    <ul>
+        <li>Prototype:&nbsp;<code>char *_strdup(char *str);</code></li>
+        <li>The&nbsp;<code>_strdup()</code> function returns a pointer to a new string which is a duplicate of the string&nbsp;<code>str</code>. Memory for the new string is obtained with&nbsp;<code>malloc</code>, and can be freed with&nbsp;<code>free</code>.</li>
+        <li>Returns&nbsp;<code>NULL</code> if str = NULL</li>
+        <li>On success, the&nbsp;<code>_strdup</code> function returns a pointer to the duplicated string. It returns&nbsp;<code>NULL</code> if insufficient memory was available</li>
+    </ul>
+    <p>FYI: The standard library provides a similar function:&nbsp;<code>strdup</code>. Run&nbsp;<code>man strdup</code> to learn more.</p>
+</div>
+<br>
+<div>
+    <h3>2. He who is not courageous enough to take risks will accomplish nothing in life</h3>
+    <div>mandatory</div>
+</div>
+<div>
+    <p>Write a function that concatenates two strings.</p>
+    <ul>
+        <li>Prototype:&nbsp;<code>char *str_concat(char *s1, char *s2);</code></li>
+        <li>The returned pointer should point to a newly allocated space in memory which contains the contents of&nbsp;<code>s1</code>, followed by the contents of&nbsp;<code>s2</code>, and null terminated</li>
+        <li>if&nbsp;<code>NULL</code> is passed, treat it as an empty string</li>
+        <li>The function should return&nbsp;<code>NULL</code> on failure</li>
+    </ul>
+</div>
+<br>
+<div>
+    <h3>3. If you even dream of beating me you&apos;d better wake up and apologize</h3>
+    <div>mandatory</div>
+</div>
+<div>
+    <p>Write a function that returns a pointer to a 2 dimensional array of integers.</p>
+    <ul>
+        <li>Prototype:&nbsp;<code>int **alloc_grid(int width, int height);</code></li>
+        <li>Each element of the grid should be initialized to&nbsp;<code>0</code></li>
+        <li>The function should return&nbsp;<code>NULL</code> on failure</li>
+        <li>If&nbsp;<code>width</code> or&nbsp;<code>height</code> is&nbsp;<code>0</code> or negative, return&nbsp;<code>NULL</code></li>
+    </ul>
+</div>
+<br>
+<div>
+    <h3>4. It&apos;s not bragging if you can back it up</h3>
+    <div>mandatory</div>
+</div>
+<div>
+    <p>Write a function that frees a 2 dimensional grid previously created by your&nbsp;<code>alloc_grid</code> function.</p>
+    <ul>
+        <li>Prototype:&nbsp;<code>void free_grid(int **grid, int height);</code></li>
+        <li>Note that we will compile with your&nbsp;<code>alloc_grid.c</code> file. Make sure it compiles.</li>
+    </ul>
+</div>
