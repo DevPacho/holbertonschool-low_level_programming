@@ -29,7 +29,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n >= b + 1)
 		size = a + b;
-	
+
 	else
 		size = a + n;
 
@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		p[a] = s1[a];
 	}
 
-	for (b = 0; b < n; b++)
+	for (b = 0; a <= size; b++)
 	{
 		p[a] = s2[b];
 		a++;
