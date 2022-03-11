@@ -48,5 +48,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		p[a] = s2[b];
 		a++;
 	}
+	p[size] = '\0';
 	return (p);
 }
