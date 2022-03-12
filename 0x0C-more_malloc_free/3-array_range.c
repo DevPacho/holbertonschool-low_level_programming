@@ -5,14 +5,14 @@
 
 /**
  * array_range - function that creates an array of integers.
- * @min: 
- * @max:
+ * @min: min value.
+ * @max: max value.
  * Return: pointer to the newly created array.
  */
 
 int *array_range(int min, int max)
 {
-	int a, *p, size;
+	int a, *p, size = max - min;
 
 	if (min > max)
 		return (NULL);
@@ -22,8 +22,9 @@ int *array_range(int min, int max)
 	if (p == NULL)
 		return (NULL);
 
-	for (a = 0; a < size; a++)
-		p[a] = 
-	
+	for (a = 0; min <= max; min++)
+		p[a] = min;
+	a++;
+
 	return (p);
 }
