@@ -46,11 +46,11 @@
     </ul>
 </div>
 <br>
-<h2>Tasks</h2>
+<h1>Tasks</h1>
 <div>
     <div>
         <div>
-            <h3>0. Trust no one</h3>
+            <h2>0. Trust no one</h2>
             <div>mandatory</div>
         </div>
         <div>
