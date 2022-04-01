@@ -12,7 +12,7 @@ int pop_listint(listint_t **head)
 	listint_t *todelete = *head;
 	int tosave = 0;
 
-	if (!head)
+	if (!*head)
 		return (0);
 
 	tosave = todelete->n;
