@@ -9,13 +9,12 @@
 int pop_listint(listint_t **head)
 {
 
-	listint_t *todelete;
+	listint_t *todelete = *head;
 	int tosave = 0;
 
 	if (!head)
 		return (0);
 
-	todelete = *head;
 	tosave = todelete->n;
 	*head = (*head)->next;
 	free(todelete);
