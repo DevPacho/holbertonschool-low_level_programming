@@ -1,4 +1,5 @@
 <h1>0x0B. C - malloc, free</h1>
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Malloc-function-in-c.png">
 <h2>Concepts</h2>
 <div>
     <div>
@@ -51,10 +52,12 @@
 </div>
 <br>
 <h1>Tasks</h1>
-
 <div>
-    <h3>0. Float like a butterfly, sting like a bee</h3>
-    <div>mandatory</div>
+    <h2>0. Float like a butterfly, sting like a bee</h2>
+    <ul>
+        <li><b><i>File:</b>&nbsp;<code>0-create_array.c</i></code></li>
+</ul>
+    <br>
 </div>
 <div>
     <p>Write a function that creates an array of chars, and initializes it with a specific char.</p>
@@ -66,8 +69,11 @@
 </div>
 <div>
     <br>
-    <h3>1. The woman who has no imagination has no wings</h3>
-    <div>mandatory</div>
+    <h2>1. The woman who has no imagination has no wings</h2>
+    <ul>
+    <li><b><i>File:</b>&nbsp;<code>1-strdup.c</i></code></li>
+</ul>
+    <br>
 </div>
 <div>
     <p>Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.</p>
@@ -81,8 +87,11 @@
 </div>
 <br>
 <div>
-    <h3>2. He who is not courageous enough to take risks will accomplish nothing in life</h3>
-    <div>mandatory</div>
+    <h2>2. He who is not courageous enough to take risks will accomplish nothing in life</h2>
+    <ul>
+    <li><b><i>File:</b>&nbsp;<code>2-str_concat.c</i></code></li>
+</ul>
+    <br>
 </div>
 <div>
     <p>Write a function that concatenates two strings.</p>
@@ -95,8 +104,11 @@
 </div>
 <br>
 <div>
-    <h3>3. If you even dream of beating me you&apos;d better wake up and apologize</h3>
-    <div>mandatory</div>
+    <h2>3. If you even dream of beating me you&apos;d better wake up and apologize</h2>
+    <ul>
+    <li><b><i>File:</b>&nbsp;<code>3-alloc_grid.c</i></code></li>
+</ul>
+    <br>
 </div>
 <div>
     <p>Write a function that returns a pointer to a 2 dimensional array of integers.</p>
@@ -109,8 +121,11 @@
 </div>
 <br>
 <div>
-    <h3>4. It&apos;s not bragging if you can back it up</h3>
-    <div>mandatory</div>
+    <h2>4. It&apos;s not bragging if you can back it up</h2>
+    <ul>
+    <li><b><i>File:</b>&nbsp;<code>4-free_grid.c</i></code></li>
+</ul>
+    <br>
 </div>
 <div>
     <p>Write a function that frees a 2 dimensional grid previously created by your&nbsp;<code>alloc_grid</code> function.</p>
@@ -119,3 +134,5 @@
         <li>Note that we will compile with your&nbsp;<code>alloc_grid.c</code> file. Make sure it compiles.</li>
     </ul>
 </div>
+<br>
+<h2>5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe</h2>
