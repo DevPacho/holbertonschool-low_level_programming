@@ -11,14 +11,10 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int a = 0;
 
-	if (!n)
+	for (; a < index; a++)
+		n >>= 1;
+
+	if (a > (sizeof(unsigned long int) * 8))
 		return (-1);
-
-	for (a = 0; n < index; a++)
-	{
-		n <<= 1;
-		putchar((n & 1) + '0');
-	}
-
-	return (index);
+	return (n & 1);
 }
