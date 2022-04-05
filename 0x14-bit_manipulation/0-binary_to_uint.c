@@ -12,19 +12,19 @@ unsigned int binary_to_uint(const char *b)
 	int a = 0;
 	unsigned int savenum = 0;
 
-	if (!b)
+	if (b == 0)
 		return (0);
 
-	for (; b[a]; a++)
+	for (a = 0; b[a]; a++)
 		if (b[a] != 48 && b[a] != 49)
 			return (0);
 
-	for (; b[a]; a++)
+	for (a = 0; b[a]; a++)
 	{
 		savenum <<= 1;
 
-		if (b[a] == 48 || b[a] == 49)
-			savenum = savenum + 1;
+		if (b[a] == '1')
+			savenum += 1;
 	}
 	return (savenum);
 }
