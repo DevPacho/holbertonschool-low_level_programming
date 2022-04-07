@@ -9,7 +9,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int filedescrp; 
+	int filedescrp;
 	ssize_t towrite;
 	int a = 0;
 
@@ -30,7 +30,7 @@ int create_file(const char *filename, char *text_content)
 	towrite = write(filedescrp, text_content, a);
 
 	if (towrite == -1)
-		return(-1);
+		return (-1);
 
 	close(filedescrp);
 	return (1);
