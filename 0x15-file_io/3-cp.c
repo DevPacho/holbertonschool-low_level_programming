@@ -47,12 +47,12 @@ int main(int argc, char *argv[])
 	}
 	if (close(filedescrp) == -1)
 	{
-		dprintf(2, "Error: Can't close fd %d\n", filedescrp);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", filedescrp);
 		exit(100);
 	}
 	if (close(filedescrp2) == -1)
 	{
-		dprintf(2, "Error: Can't close fd %d\n", filedescrp2);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", filedescrp2);
 		exit(100);
 	}
 	return (0);
