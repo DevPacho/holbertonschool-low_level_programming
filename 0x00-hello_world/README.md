@@ -103,8 +103,9 @@ done</code></pre>
 <h3>Manual QA Review</h3>
 <p><strong>It is your responsibility to request a review for your blog from a peer before the project&rsquo;s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.</strong></p>
 <br>
-<h1>Tasks</h1>
+<h1>✅ Tasks ✅</h1>
 <p>This project is made up of mandatory and optional tasks, <b>⬇️ <code>look at them!</code></b> ⬇️</p>
+<br>
 <h2>0. Preprocessor</h2>
 <p>Write a script that runs a C file through the preprocessor and save the result into another file.</p>
 <ul>
@@ -140,7 +141,7 @@ int main(void)
 }
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/0-preprocessor" target="_blank">0-preprocessor</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/0-preprocessor" target="_blank">0-preprocessor</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>1. Compiler</h2>
@@ -175,7 +176,7 @@ julien@ubuntu:~/c/0x00$ cat -v main.o | head
 ^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^A^@>^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^P^B^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@@^@^K^@^H^@UHM-^IM-eM-8^@^@^@^@]M-C^@GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609^@^T^@^@^@^@^@^@^@^AzR^@^Ax^P^A^[^L^G^HM-^P^A^@^@^\^@^@^@^\^@^@^@^@^@^@^@^K^@^@^@^@A^N^PM-^F^BC^M^FF^L^G^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^E^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^R^@^A^@^@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@main.c^@main^@^@^@^@ ^@^@^@^@^@^@^@^B^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@.symtab^@.strtab^@.shstrtab^@.text^@.data^@.bss^@.comment^@.note.GNU-stack^@.rela.eh_frame^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[^@^@^@^A^@^@^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@!^@^@^@^A^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@'^@^@^@^H^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@,^@^@^@^A^@^@^@0^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@5^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@5^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@J^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@8^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@E^@^@^@^D^@^@^@@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M- ^A^@^@^@^@^@^@^X^@^@^@^@^@^@^@    ^@^@^@^F^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^Q^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^A^@^@^@^@^@^@T^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^@^@^@^@^@^@^@M-X^@^@^@^@^@^@^@
 ^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/1-compiler" target="_blank">1-compiler</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/1-compiler" target="_blank">1-compiler</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>2. Assembler</h2>
@@ -229,7 +230,7 @@ main:
     .section    .note.GNU-stack,"",@progbits
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/2-assembler" target="_blank">2-assembler</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/2-assembler" target="_blank">2-assembler</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>3. Name</h2>
@@ -258,7 +259,7 @@ julien@ubuntu:~/c/0x00$ ls
 100-intel       2-assembler  c       main.c  main.s
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/3-name" target="_blank">3-name</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/3-name" target="_blank">3-name</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>4. Hello, puts</h2>
@@ -275,7 +276,7 @@ julien@ubuntu:~/c/0x00$ echo $?
 0
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/4-puts.c" target="_blank">4-puts.c</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/4-puts.c" target="_blank">4-puts.c</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>5. Hello, printf</h2>
@@ -294,7 +295,7 @@ julien@ubuntu:~/c/0x00$ echo $?
 0
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/5-printf.c" target="_blank">5-printf.c</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/5-printf.c" target="_blank">5-printf.c</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>6. Size is not grandeur, and territory does not make a nation</h2>
@@ -324,7 +325,7 @@ julien@ubuntu:~/c/0x00$ echo $?
 0
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/6-size.c" target="_blank">6-size.c</b></i></a></code></li>    
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/6-size.c" target="_blank">6-size.c</b></i></a></code> ✅</li>    
 </ul>
 <br>
 <h2>7. What happens when you type gcc main.c?</h2>
@@ -336,7 +337,7 @@ julien@ubuntu:~/c/0x00$</code></pre>
     <li>Share your blog post at least on LinkedIn</li>
 </ul>
 <ul>
-    <li><b>You can read my blog giving an answer to the previous problematizing question</b>&nbsp;<code><i><b><a href="https://www.linkedin.com/pulse/compilation-c-francisco-jos%25C3%25A9-ram%25C3%25ADrez-mojica/?trackingId=iAvzVvstTfWvb7siHgnrRw%3D%3D" target="_blank">HERE ON MY LINKEDIN!</b></i></a></code></li>
+    <li><b>You can read my blog giving an answer to the previous problematizing question</b>&nbsp;<code><i><b><a href="https://www.linkedin.com/pulse/compilation-c-francisco-jos%25C3%25A9-ram%25C3%25ADrez-mojica/?trackingId=iAvzVvstTfWvb7siHgnrRw%3D%3D" target="_blank">HERE ON MY LINKEDIN!</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>8. Intel</h2>
@@ -390,7 +391,7 @@ main:
     .section    .note.GNU-stack,"",@progbits
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/100-intel" target="_blank">100-intel</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/100-intel" target="_blank">100-intel</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>9. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity</h2>
@@ -413,7 +414,7 @@ julien@ubuntu:~/c/0x00$ grep printf < 101-quote.c
 julien@ubuntu:~/c/0x00$ grep put < 101-quote.c
 julien@ubuntu:~/c/0x00$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/101-quote.c" target="_blank">101-quote.c</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-low_level_programming/blob/master/0x00-hello_world/101-quote.c" target="_blank">101-quote.c</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>License & Copyright</h2>
