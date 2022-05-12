@@ -28,6 +28,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		if (a == idx)
 		{
 			newnode_at_index = add_dnodeint(&traverse_list->next, n);
+			newnode_at_index->prev = traverse_list;
 			return (newnode_at_index);
 		}
 		traverse_list = traverse_list->next;
