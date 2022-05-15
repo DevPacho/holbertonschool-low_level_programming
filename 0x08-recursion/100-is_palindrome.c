@@ -23,22 +23,22 @@ int _strlen_recursion(char *s)
  * Return: 1 if is palindrome or 0 if not.
  */
 
-int isPalindromeRecursion (char *s, int first, int last)
+int isPalindromeRecursion(char *s, int first, int last)
 {
 	if (s[first] != s[last])
-		return(0);
+		return (0);
 
 	if (first >= last)
 		return (1);
 
-	return isPalindromeRecursion(s, first + 1, last - 1);
+	return (isPalindromeRecursion(s, first + 1, last - 1));
 
 	return (0);
 }
 
 /**
 * is_palindrome - function that returns 1 if a string is a palindrome and
-0 if not.
+* 0 if not.
 * @s: string to check.
 * Return: 1 if a string is palindrome or 0 if not.
 */
@@ -50,5 +50,5 @@ int is_palindrome(char *s)
 	if (len == 0)
 		return (1);
 
-	return isPalindromeRecursion(s, 0, len - 1);
+	return (isPalindromeRecursion(s, 0, len - 1));
 }
