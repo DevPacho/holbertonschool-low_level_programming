@@ -14,13 +14,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *dup_val = NULL, *dup_key = NULL;
 	hash_node_t *new_element = NULL, *traverse_table_index = NULL;
 
-	if (!ht || !key || !*key || *key == ' ')
+	if (!ht || !key || !*key || *key == ' ' || !value)
 		return (0);
 
 	table_index = key_index((unsigned char *)key, ht->size);
 
-	traverse_table_index = ht->array[table_index];
 	dup_val = strdup(value);
+	traverse_table_index = ht->array[table_index];
 	dup_key = strdup(key);
 
 	while (traverse_table_index)
@@ -40,8 +40,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	new_element->key = dup_key;
 	new_element->value = dup_val;
-	new_element->next = traverse_table_index;
-	traverse_table_index = new_element;
+	new_element->next = ht->array[table_index];
+	ht->array[table_index] = new_element;
 
 	return (1);
 }
