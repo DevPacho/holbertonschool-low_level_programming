@@ -14,7 +14,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *dup_val = NULL, *dup_key = NULL;
 	hash_node_t *new_element = NULL, *traverse_table_index = NULL;
 
-	if (!ht)
+	if (!ht || !key || !*key || *key == ' ')
 		return (0);
 
 	traverse_table_index = ht->array[table_index];
