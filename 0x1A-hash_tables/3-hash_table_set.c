@@ -10,18 +10,18 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	unsigned long int table_index = 0;
+	unsigned long int table_index;
 	char *dup_val = NULL, *dup_key = NULL;
 	hash_node_t *new_element = NULL, *traverse_table_index = NULL;
 
 	if (!ht || !key || !*key || *key == ' ')
 		return (0);
 
+	table_index = key_index((unsigned char *)key, ht->size);
+
 	traverse_table_index = ht->array[table_index];
 	dup_val = strdup(value);
 	dup_key = strdup(key);
-
-	table_index = key_index((const unsigned char *)key, ht->size);
 
 	while (traverse_table_index)
 	{
