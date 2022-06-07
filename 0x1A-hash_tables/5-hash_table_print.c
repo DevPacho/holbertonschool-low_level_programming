@@ -16,16 +16,16 @@ void hash_table_print(const hash_table_t *ht)
 
 	printf("{");
 
-	for (traverse_to_print = 0; traverse_to_print < ht->size; traverse_to_print++)
+	for (; traverse_to_print < ht->size; traverse_to_print++)
 	{
 		to_table_index = ht->array[traverse_to_print];
 		while (to_table_index)
 		{
 			if (activator != 0)
 				printf(", ");
-			activator += 1;
+			activator = 1;
 
-			printf("'%s': '%s':", to_table_index->key, to_table_index->value);
+			printf("'%s': '%s'", to_table_index->key, to_table_index->value);
 			to_table_index = to_table_index->next;
 		}
 
