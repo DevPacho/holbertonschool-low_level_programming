@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef SEARCH_ALGOS_H
+#define SEARCH_ALGOS_H
 
 /** Libraries */
 
