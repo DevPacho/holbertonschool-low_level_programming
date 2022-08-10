@@ -7,7 +7,7 @@
 * @size: is the number of elements in the array.
 * @value: is the value to search for.
 *
-* Return: iterator with teh value or -1 on failure.
+* Return: iterator with the value or -1 on failure.
 */
 
 int linear_search(int *array, size_t size, int value)
